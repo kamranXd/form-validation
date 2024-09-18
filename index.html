@@ -16,18 +16,21 @@
                 <form action="#">
                     <p>
                         <label for="name">Full Name</label>
-                        <input type="text" placeholder="Type Name Here" id="name" required >
+                        <input type="text" emailplaceholder="Type Name Here" id="name" required >
+                        <span id="nameError"></span>
                     </p>
                     <p>
                         <label for="email">Email</label>
                         <input type="email" placeholder="xyz@gmail.com" id="email" required/>
+                        <span id="emailError"></span>
                     </p>
                     <p>
                         <label for="password">Password</label>
-                        <input type="password" placeholder="at least 8 character" id="password" required min="8" max="30"/>
+                        <input type="password" placeholder="at least 8 character" id="password" required/>
+                        <span id="passError"></span>
                     </p>
                  <p>
-                    <input type="submit" value="Create Account">
+                    <input type="submit" value="Create Account" id="submitBtn">
                  </p>
                 </form>
             </main>
@@ -39,4 +42,5 @@
         
     </div>
 </body>
+<script src="index.js"></script>
 </html>

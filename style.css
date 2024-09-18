@@ -14,7 +14,7 @@
 }
 
 .box{
-    width: 40%;
+    width: 25%;
     position: relative;
     top: 50%;
     left: 50%;
@@ -35,9 +35,16 @@
     margin-top: 1rem;
 }
 
+.signup-body p span{
+    font-size: 17px;
+    font-weight: 550;
+    color: #ee1010;
+    margin-left: 0.3rem;
+}
 .signup-body p label{
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 .signup-body p input{
     width: 100%;
